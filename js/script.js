@@ -75,7 +75,10 @@ function movieNominated(id) {
 function print (){
 	var output = ' '; 
 	var i = 0;
-	if (array.length != 0) {
+	if (array.length > 5){
+		alert("You have aleady nominated 5 movies")
+	}
+	else if (array.length != 0) {
 		for  (i = 0; i < array.length; i++){
 			var a = posterArray[i];
 			
