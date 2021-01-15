@@ -5,7 +5,10 @@
 #center{
 	text-align: center;
 }
-
+.navbar-brand{
+	font-size: 50px;
+	color: #00B4CC;
+}
 
 #movies, #movie{
 	/*background-color: #e9ecef;*/
